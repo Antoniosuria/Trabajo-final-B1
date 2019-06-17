@@ -1,0 +1,94 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar{
+    height: 5rem;
+    background: #131313;
+}
+
+.principalFeatures {
+    color: red;
+    font-size: 1.3rem;
+    margin-left: 2.8rem;
+}
+.logo{
+    font-size: 2.5rem;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.ImagenesPrincipales{
+    height: 17rem;
+}
+
+button { 
+    color: #1D9AF2;
+    background-color: #292D3E;
+    border: 1px solid #1D9AF2;
+    border-radius: 4px;
+    padding: 0 15px;
+    cursor: pointer;
+    height:32px;
+    font-size:14px;
+    transition: all 0.2s ease-in-out;
+    margin-top: 2rem;
+    }
+    button:hover { 
+    box-shadow: 1px 1px #53a7ea, 2px 2px #53a7ea, 3px 3px #53a7ea;
+    transform: translateX(-3px);
+    }
+
+.jumbotron1{
+    height: 6rem;
+    background: #131313;
+}
+
+.padre1{
+    height: 6rem;
+    background: #131313;
+    
+}
+
+.icon1{
+    background: #131313;
+}
+
+.icon2{
+    background: #131313;
+}
+
+.icon3{
+    background: #131313;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.logoText{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+
+.jumbotron2{
+    height: 15rem;
+    background: #131313;
+}
+
+.jumbotron3{
+    height: 15rem;
+    background: #131313;
+}
+
+.jumbotron4{
+    height: 15rem;
+    background: #131313;
+}
+
+.jumbotron5{
+    height: 15rem;
+    background: #131313;
+}
