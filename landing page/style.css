@@ -1,6 +1,7 @@
 html, body{
     height: 100%;
     width: 100%;
+    background: #131313;
 }
 
 .navbar{
@@ -20,7 +21,7 @@ html, body{
 }
 
 .ImagenesPrincipales{
-    height: 17rem;
+    height: 24rem;
 }
 
 button { 
@@ -33,7 +34,8 @@ button {
     height:32px;
     font-size:14px;
     transition: all 0.2s ease-in-out;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     }
     button:hover { 
     box-shadow: 1px 1px #53a7ea, 2px 2px #53a7ea, 3px 3px #53a7ea;
@@ -41,12 +43,13 @@ button {
     }
 
 .jumbotron1{
-    height: 6rem;
+    height: 16rem;
     background: #131313;
+    margin-top: 4rem;
 }
 
 .padre1{
-    height: 6rem;
+    height: 16rem;
     background: #131313;
     
 }
@@ -74,21 +77,63 @@ button {
 }
 
 .jumbotron2{
-    height: 15rem;
+    height: 20rem;
     background: #131313;
 }
 
 .jumbotron3{
-    height: 15rem;
+    height: 20rem;
     background: #131313;
 }
 
-.jumbotron4{
-    height: 15rem;
-    background: #131313;
+
+
+.tema1{
+    color: #53a7ea;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: 2.5rem;
 }
 
-.jumbotron5{
-    height: 15rem;
+
+.scrollmenu {
     background: #131313;
+  overflow: auto;
+  white-space: nowrap;
+  height: 20rem;
+}
+
+.scrollmenu .books {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.scrollmenu .books:hover {
+  background-color: #181818;
+}
+
+.books{
+    height: 16rem;
+    width: 11rem;
+}
+
+
+.scrollmenu .Podcast {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  .scrollmenu .Podcast:hover {
+    background-color: #181818;
+  }
+
+  .Podcast{
+    height: 16rem;
+    width: 11rem; 
 }
