@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>Meetups.SV</h1>
+<hr>
+
+<h2>libros</h2>
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('html5')"> HTML5</button>
+  <button class="btn" onclick="filterSelection('cars')"> CSS</button>
+  <button class="btn" onclick="filterSelection('js')"> JavaScript</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column js">
+    <div class="content">
+      <img src="Jsblue.png" alt="Mountains" style="width:100%">
+      <h4>¿Y un libro para aprender Javascript en castellano?   </h4>
+      <p>En español recomendamos el libro de nuestro profesor, Juanma Garrido. Conocerás las bases de javascript como lenguaje de programacion (variables, operadores, condicionales, bucles, tipos datos, etc...) y conceptos un poco mas avanzados pero fundamentales para entender el Javascript moderno. Puedes adquirirlo aquí: Apuntes de Javascript.
+
+        También puede interesarte la introducción a Javascript de Javier Eguiluz en LibrosWeb.</p>
+    </div>
+  </div>
+  <div class="js">
+    <div class="content">
+    <img src="Jsturkey.png" alt="Lights" style="width:100%">
+      <h4>Eloquent JavaScript</h4>
+      <p>El primero, sin lugar a dudas es Eloquent JavaScript: A Modern Introduction to Programming, de Marijn Haverbeke. Este no es realmente un libro de JavaScript. Como sugiere el título, es una introducción a la programación usando JavaScript. Muy útil para aquellos que quieren aprender a programar desde cero.
+
+        Puedes leer (y usar) la tercera edición de forma gratuita a través Eloquent Javascript. Puedes encontrar una versión en español aquí.</p>
+    </div>
+  </div>
+  <div class="column html5">
+    <div class="content">
+    <img src="html5zebra.jpg" alt="Nature" style="width:100%">
+      <h4>Foundation HTML5 Animation with JavaScript    </h4>
+      <p>En este libro aprenderás a utilizar una animación increíble y un código basado en la física pura. En muy poco tiempo tendrás un gran entendimiento de los conceptos de tas de animación con guión y tendrás una gran capacidad de creas todo tipo de animaciones y juegos.
+
+        Lo que aprenderás en este libro:
+        • Todo el código JavaScript y HTML5 (incluyendo matemáticas y funciones de trigonometría) tendrás que comenzar a animar con el código
+        • Principios básicos de movimiento como velocidad, aceleración, fricción y los rebotes
+        Cómo manejar las interacciones del usuario con el teclado, el ratón y pantalla táctil
+        • Las avanzadas técnicas de movimiento como resortes, coordinar la conservación de la rotación de la fuerza, y la cinemática directa e inversa
+        • Todos los conceptos básicos de 3D que usted necesita para 3D en HTML5 (sin WebGL)-desde la perspectiva simple de sólidos 3D completo, con la cara posterior sacrificio y la iluminación dinámica
+        Este libro es para
+        este libro es un recurso fantástico para todos los desarrolladores web que trabajan en HTML5 o Flash para crear compatibilidad con los estándares juegos, aplicaciones y animaciones que funciona en todos los navegadores modernos y la mayoría de dispositivos móviles, incluidos iPhones, iPads y dispositivos Android.
+        
+        Libro disponible en Amazon. 
+    </p>
+    </div>
+  </div>
+  
+  <div class="column html5">
+    <div class="content">
+      <img src="html5universe.jpg" alt="Car" style="width:100%">
+      <h4>Pro HTML5 Programming Powerful APIs for Richer Internet Application Development    </h4>
+      <p>En este libro, los desarrolladores podrán aprender a utilizar la última tecnología de vanguardia disponible en la web HTML5 versiones más recientes de los navegadores modernos para crear aplicaciones web con funcionalidad sin igual, la velocidad y capacidad de respuesta.
+
+        • Explica cómo crear aplicaciones en tiempo real HTML5 que aprovechar todo el potencial de los navegadores modernos
+        • Ofrece prácticas, ejemplos del mundo real de las características de HTML5 en acción
+        • Muestra que las características de HTML5 son compatibles con los navegadores actuales
+        • Cubre todas las nuevas API de HTML5 para ponerse al día rápidamente con HTML5
+        Lo que prenderás
+        • ¿Cómo la especificación HTML5 ha evolucionado
+        • Cómo desarrollar aplicaciones de vanguardia web usando las nuevas características HTML5 como WebSockets, geolocalización, almacenamiento Web, lienzo, y de audio y video
+        • ¿Qué características están disponibles en los navegadores de hoy
+        
+        Libro disponible en Amazon.</p>
+    </div>
+  </div>
+  <div class="column js">
+    <div class="content">
+    <img src="Jsgoing.png" alt="Car" style="width:100%">
+      <h4>You don't know JS    </h4>
+      <p>Puedes leerlo gratis a través de GitHub o comprarte el libro.
+
+        La primera parte, Up & Going, es una introducción a varios conceptos básicos de programacióncon JavaScript. Comienza explicando los principios básicos de la programación a alto nivel, sin profundizar, así que es muy adecuado para aquellos que tienen poca o ninguna experiencia en programación.</p>
+    </div>
+  </div>
+  <div class="column html5">
+    <div class="content">
+    <img src="html5bubbles.jpg" alt="Car" style="width:100%">
+      <h4>HTML5 Solutions: Essential Techniques for HTML5 Developers     </h4>
+      <p>En este libro encontraras las soluciones verdaderas al desarrollo de HTML, con el cual podrás ahorrarte demasiadas horas de frustración a la hora desarrollar. Problemas que se incluyen:
+        • El envío de tasa de bits múltiples vídeos a diferentes dispositivos
+        • Creación de componentes personalizados de vídeo
+        • Programación de un controlador de vídeo personalizado
+        • El diseño de una lona con degradados personalizados
+        • La captura de imágenes y el dibujo
+        • El almacenamiento de datos en línea con las bases de datos SQL Web
+        • Arrastrando los datos desde el escritorio en el navegador
+        • Crear WebSockets HTML5
+        Este libro está disponible en Amazon</p>
+    </div>
+  </div>
+
+  <div class="column html5">
+    <div class="content">
+      <img src="html5lines.jpg" alt="Car" style="width:100%">
+      <h4>HTML5: Designing Rich Internet Applications</h4>
+      <p>En este libro aprenderás:
+        • Aprenderás a crear imágenes con SVG y Canvas
+        • Optimizar la apariencia de su sitio web HTML5 en los navegadores Web más recientes, incluyendo Chrome 5, Safari 4, Internet Explorer 9 y Firefox 3.6
+        • Introduzca material de vídeo y audio en su página web
+        • Mejorar su conocimiento de JavaScript con jQuery Ajax biblioteca
+        • El control de su diseño de página y el diseño con CSS3, las fuentes incrustadas, animación, transformación 3D, y bordes redondeados
+        • Aprovechar los elementos HTML5 nuevos, tales como ARTICLE, SECTION, FOOTER, HEADER, y ASIDE
+        • Extender sus aplicaciones Web a dispositivos móviles como el iPhone, Android, WebOS y teléfonos móviles con HTML5 Forms 2.0
+        • Implementar la API de geolocalización en sus aplicaciones Web
+        
+        Libro disponible en Amazon.</p>
+    </div>
+  </div>
+  <div class="column html5">
+    <div class="content">
+    <img src="html5splash.jpg" alt="Car" style="width:100%">
+      <h4>Smashing HTML5</h4>
+      <p>Smashing HTML5 ofrece una cobertura completa – desde cómo empezar a trabajar con HTML5 a la optimización de los medios de comunicación en la Web. Aprenderás cómo utilizar el texto, gráficos, audio, vídeo y navegación en páginas Web HTML5 se ejecutan en navegadores compatibles.
+        También aprenderá a:
+        • Trabajar con etiquetas HTML 5
+        • Diseño de estructura de la página
+        • Hacer la navegación más fácil del sitio para su audiencia
+        • Integrar los medios de comunicación como vídeo en páginas HTML 5
+        • Aprovechar el poder del canvas HTML5
+        • El uso de forms de HTML 5
+        • Crear interactividad, almacenar información, y mucho más
+        Libro disponible en Amazon.</p>
+    </div>
+  </div>
+  <div class="column js">
+    <div class="content">
+    <img src="jsrhino.jpg" alt="Car" style="width:100%">
+      <h4>JavaScript: The Definitive Guide (Definitive Guides)</h4>
+      <p>Since 1996, JavaScript: The Definitive Guide has been the bible for JavaScript programmers—a programmer's guide and comprehensive reference to the core language and to the client-side JavaScript APIs defined by web browsers.
+
+                The 6th edition covers HTML5 and ECMAScript 5. Many chapters have been completely rewritten to bring them in line with today's best web development practices. New chapters in this edition document jQuery and server side JavaScript. It's recommended for experienced programmers who want to learn the programming language of the Web, and for current JavaScript programmers who want to master it.
+                "A must-have reference for expert JavaScript programmers...well-organized and detailed."
+                —Brendan Eich, creator of JavaScript, CTO of Mozilla
+                
+                "I made a career of what I learned from JavaScript: The Definitive Guide.”
+                —Andrew Hedges, Tapulous </p>
+            </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+</body>
+</html> 
