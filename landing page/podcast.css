@@ -1,0 +1,19 @@
+html, body {
+    width: 100%;
+    height: 100%;
+
+}
+.navbar{
+    height: 5rem;
+    background: #131313;
+}
+.logo{
+    font-size: 2.5rem;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+.principalFeatures {
+    color: red;
+    font-size: 1.3rem;
+    margin-left: 2.8rem;
+}
