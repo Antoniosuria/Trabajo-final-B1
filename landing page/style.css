@@ -22,6 +22,15 @@ html, body{
 
 .ImagenesPrincipales{
     height: 24rem;
+    text-align: center;
+}
+
+.imgText{
+    font-size: 5rem;
+    color: white;
+    margin-bottom: 4rem;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 2px 2px #1D9AF2;
 }
 
 button { 
