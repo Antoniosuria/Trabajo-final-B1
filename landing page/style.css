@@ -143,6 +143,25 @@ button {
   }
 
   .Podcast{
-    height: 16rem;
-    width: 11rem; 
+    height: 12rem;
+    width: 12rem; 
+    margin-top: 2rem;
+}
+
+.scrollmenu .videosYT {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  .scrollmenu .videosYT:hover {
+    background-color: #181818;
+  }
+
+  .videosYT{
+    height: 12rem;
+    width: 12rem; 
+    margin-top: 2rem;
 }

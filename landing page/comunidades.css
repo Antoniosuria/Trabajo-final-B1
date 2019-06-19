@@ -1,0 +1,130 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    background: #131313;
+}
+
+.navbar{
+    height: 5rem;
+    background: #131313;
+    border: #1D9AF2 solid;
+}
+
+.principalFeatures {
+    color: red;
+    font-size: 1.3rem;
+    margin-left: 2.8rem;
+}
+.logo{
+    font-size: 2.5rem;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.ImagenesPrincipales{
+    height: 24rem;
+    text-align: center;
+}
+
+.imgText{
+    font-size: 5rem;
+    color: white;
+    margin-bottom: 4rem;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 2px 2px #1D9AF2;
+}
+
+.padre1{
+    height: 15rem;
+}
+
+.img1{
+    height: 11rem;
+    width: 19rem;
+    margin-top: 2rem;
+}
+
+.info1{
+    margin-top: 2rem;
+}
+
+.buttonRainbow{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 12rem;
+    height: 2rem;
+    text-align: center;
+    line-height: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4 );
+    margin-top: 3rem;
+    left: 10rem;
+    background-size: 400%;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonRainbow:hover{
+    animation: animate 8s linear infinite;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        background-position: 0%;
+    }
+    100%
+    {
+        background-position: 400%;
+    }
+}
+
+.buttonRainbow:before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4 );
+    background-size: 400%;
+    border-radius: 40px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.buttonRainbow:hover::before{
+    filter: blur(20px);
+    opacity: 1;
+    animation: animate 8s linear infinite;
+}
+
+.nameClan{
+    font-size: 2rem;
+    color: #1D9AF2;
+}
+
+.contador{
+    color: red;
+}
+
+.padre2{
+    height: 15rem;
+}
+
+.padre3{
+    height: 15rem;
+}
+
+.padre4{
+    height: 15rem;
+}
