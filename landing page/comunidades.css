@@ -129,3 +129,25 @@ html, body{
 .padre4{
     height: 15rem;
 }
+
+
+.wrapper{
+    font-size: 0.4rem;
+    width: 100%;
+    text-align: left;
+    position: absolute;
+    top: 30px;
+    display: block;
+    left: -6rem;
+}
+
+.cube{
+    width: 311px;
+    height: 184px;
+    top: 50%;
+    left: 37%;
+    position: absolute;
+    box-shadow: 10px 10px 51px 7px rgba(0,0,0,0.75);
+    border-radius: 30px;
+    background-image: url(https://www.klika.mx/wp-content/uploads/2017/08/devf.png)
+}
