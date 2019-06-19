@@ -1,7 +1,7 @@
 html, body{
-    height: 100%;
+    height: 140%;
     width: 100%;
-    background: #131313;
+    background:linear-gradient(to bottom right, #131313, #1D9AF2 );
 }
 
 .navbar{
@@ -42,6 +42,7 @@ html, body{
     height: 11rem;
     width: 19rem;
     margin-top: 2rem;
+    border-radius: 40px;
 }
 
 .info1{
@@ -110,7 +111,7 @@ html, body{
 
 .nameClan{
     font-size: 2rem;
-    color: #1D9AF2;
+    color: #1f1f1f;
 }
 
 .contador{
