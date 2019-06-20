@@ -4,7 +4,6 @@ html, body {
 }
 .container {
     margin-top: 45px;
-    border: solid 5px black;
     display: grid;
   grid-template-columns: auto auto auto ;
   grid-gap: 20px;
