@@ -10,13 +10,13 @@ html, body{
 }
 
 .principalFeatures {
-    color: red;
+    color: #F46C00;
     font-size: 1.3rem;
     margin-left: 2.8rem;
 }
 .logo{
     font-size: 2.5rem;
-    color: white;
+    color: #F46C00;
     font-family: 'Playfair Display', serif;
 }
 
@@ -34,9 +34,9 @@ html, body{
 }
 
 button { 
-    color: #1D9AF2;
-    background-color: #292D3E;
-    border: 1px solid #1D9AF2;
+    color: #F46C00;
+    background-color: #131313;
+    border: 1px solid #F46C00;
     border-radius: 4px;
     padding: 0 15px;
     cursor: pointer;
@@ -47,7 +47,7 @@ button {
     margin-bottom: 1rem;
     }
     button:hover { 
-    box-shadow: 1px 1px #53a7ea, 2px 2px #53a7ea, 3px 3px #53a7ea;
+    box-shadow: 1px 1px #F46C00, 2px 2px #F46C00, 3px 3px #F46C00;
     transform: translateX(-3px);
     }
 
@@ -95,10 +95,22 @@ button {
     background: #131313;
 }
 
+.jumbotron4{
+    height: 20rem;
+    background: #131313;
+}
 
+.img2{
+    height: 11rem;
+    width: 19rem;
+    margin-top: 2rem;
+    border-radius: 40px;
+    box-shadow: 10px 10px 51px 7px rgba(0,0,0,0.75);
+    margin-left: 1rem;
+}
 
 .tema1{
-    color: #53a7ea;
+    color: #F46C00;
     margin-left: 2rem;
     margin-top: 1rem;
     font-size: 2.5rem;
@@ -127,7 +139,7 @@ button {
 
 .books{
     height: 16rem;
-    width: 11rem;
+    width: 12rem;
 }
 
 
@@ -155,6 +167,7 @@ button {
     text-align: center;
     padding: 14px;
     text-decoration: none;
+    border: none;
   }
   
   .scrollmenu .videosYT:hover {
@@ -166,4 +179,8 @@ button {
     width: 20rem;
     margin-top: 2rem;
     margin-left: 1rem;
+}
+
+.footer{
+    height: 10rem;
 }

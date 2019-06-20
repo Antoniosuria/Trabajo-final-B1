@@ -1,5 +1,5 @@
 html, body{
-    height: 140%;
+    height: 125%;
     width: 100%;
     background:linear-gradient(to bottom right, #131313, #1D9AF2 );
 }
@@ -7,7 +7,7 @@ html, body{
 .navbar{
     height: 5rem;
     background: #131313;
-    border: #1D9AF2 solid;
+
 }
 
 .principalFeatures {
@@ -43,10 +43,99 @@ html, body{
     width: 19rem;
     margin-top: 2rem;
     border-radius: 40px;
+    box-shadow: 10px 10px 51px 7px rgba(0,0,0,0.75);
+}
+
+.img2{
+    height: 11rem;
+    width: 19rem;
+    margin-top: 2rem;
+    border-radius: 40px;
+    box-shadow: 10px 10px 51px 7px rgba(0,0,0,0.75);
+    margin-left: 1.2rem;
 }
 
 .info1{
     margin-top: 2rem;
+}
+
+.info2{
+    margin-top: 2rem;
+}
+
+.info3{
+    margin-top: 2rem;
+    text-align: right;
+}
+
+.info4{
+    margin-top: 2rem;
+}
+
+.location{
+    font-size: 0.9rem;
+    color: red;
+
+}
+
+.buttonRainbow01{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 12rem;
+    height: 2rem;
+    text-align: center;
+    line-height: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #a77421, #ffffff, #ffffff, #2f2311 );
+    margin-top: 3rem;
+    left: 7rem;
+    background-size: 400%;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonRainbow01:hover{
+    animation: animate 8s linear infinite;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        background-position: 0%;
+    }
+    100%
+    {
+        background-position: 400%;
+    }
+}
+
+.buttonRainbow01:before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg, #a77421, #ffffff, #ffffff, #2f2311);
+    background-size: 400%;
+    border-radius: 40px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.buttonRainbow01:hover::before{
+    filter: blur(20px);
+    opacity: 1;
+    animation: animate 8s linear infinite;
 }
 
 .buttonRainbow{
@@ -64,7 +153,7 @@ html, body{
     box-sizing: border-box;
     background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4 );
     margin-top: 3rem;
-    left: 10rem;
+    left: 7rem;
     background-size: 400%;
     border-radius: 30px;
     align-items: center;
@@ -109,13 +198,371 @@ html, body{
     animation: animate 8s linear infinite;
 }
 
+
+.buttonRainbow04{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 12rem;
+    height: 2rem;
+    text-align: center;
+    line-height: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #2b2a2a, #ffffff, #e8e8e8, #1a1a1a );
+    margin-top: 3rem;
+    left: 7rem;
+    background-size: 400%;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonRainbow04:hover{
+    animation: animate 8s linear infinite;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        background-position: 0%;
+    }
+    100%
+    {
+        background-position: 400%;
+    }
+}
+
+.buttonRainbow04:before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg,#2b2a2a, #ffffff, #e8e8e8, #1a1a1a  );
+    background-size: 400%;
+    border-radius: 40px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.buttonRainbow04:hover::before{
+    filter: blur(20px);
+    opacity: 1;
+    animation: animate 8s linear infinite;
+}
+
+.buttonRainbow05{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 12rem;
+    height: 2rem;
+    text-align: center;
+    line-height: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #ffffff, #e03137, #ea4d4e, #ffffff);
+    margin-top: 3rem;
+    left: 7rem;
+    background-size: 400%;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonRainbow05:hover{
+    animation: animate 8s linear infinite;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        background-position: 0%;
+    }
+    100%
+    {
+        background-position: 400%;
+    }
+}
+
+.buttonRainbow05:before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg, #ffffff, #e03137, #ea4d4e, #ffffff );
+    background-size: 400%;
+    border-radius: 40px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.buttonRainbow05:hover::before{
+    filter: blur(20px);
+    opacity: 1;
+    animation: animate 8s linear infinite;
+}
+
+
+
+.buttonRainbow02{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 12rem;
+    height: 2rem;
+    text-align: center;
+    line-height: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #0845b3, #ffffff, #0845b3);
+    margin-top: 3rem;
+    left: 16rem;
+    background-size: 400%;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonRainbow02:hover{
+    animation: animate 8s linear infinite;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        background-position: 0%;
+    }
+    100%
+    {
+        background-position: 400%;
+    }
+}
+
+.buttonRainbow02:before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg, #0845b3, #ffffff, #0845b3);
+    background-size: 400%;
+    border-radius: 40px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.buttonRainbow03{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 12rem;
+    height: 2rem;
+    text-align: center;
+    line-height: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #000000, #ff0000, #000000, #ff0000);
+    margin-top: 3rem;
+    left: 16rem;
+    background-size: 400%;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonRainbow03:hover{
+    animation: animate 8s linear infinite;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        background-position: 0%;
+    }
+    100%
+    {
+        background-position: 400%;
+    }
+}
+
+.buttonRainbow03:before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg, #000000, #ff0000, #000000, #ff0000);
+    background-size: 400%;
+    border-radius: 40px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.buttonRainbow03:hover::before{
+    filter: blur(20px);
+    opacity: 1;
+    animation: animate 8s linear infinite;
+}
+
+.buttonRainbow06{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 12rem;
+    height: 2rem;
+    text-align: center;
+    line-height: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #b53b3b, #00ff31, #dd4c40, #f6c149 );
+    margin-top: 3rem;
+    left: 16rem;
+    background-size: 400%;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonRainbow06:hover{
+    animation: animate 8s linear infinite;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        background-position: 0%;
+    }
+    100%
+    {
+        background-position: 400%;
+    }
+}
+
+.buttonRainbow06:before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg, #b53b3b, #00ff31, #dd4c40, #f6c149 );
+    background-size: 400%;
+    border-radius: 40px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.buttonRainbow06:hover::before{
+    filter: blur(20px);
+    opacity: 1;
+    animation: animate 8s linear infinite;
+}
+
+.buttonRainbow07{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 12rem;
+    height: 2rem;
+    text-align: center;
+    line-height: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #1531ba, #09062d, #1531ba, #09062d);
+    margin-top: 3rem;
+    left: 16rem;
+    background-size: 400%;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonRainbow07:hover{
+    animation: animate 8s linear infinite;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        background-position: 0%;
+    }
+    100%
+    {
+        background-position: 400%;
+    }
+}
+
+.buttonRainbow07:before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg, #1531ba, #09062d, #1531ba, #09062d);
+    background-size: 400%;
+    border-radius: 40px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.buttonRainbow07:hover::before{
+    filter: blur(20px);
+    opacity: 1;
+    animation: animate 8s linear infinite;
+}
+
 .nameClan{
     font-size: 2rem;
     color: #1f1f1f;
 }
 
 .contador{
-    color: red;
+    color: #f46c00;
+    font-size: 1rem;
 }
 
 .padre2{
@@ -130,24 +577,3 @@ html, body{
     height: 15rem;
 }
 
-
-.wrapper{
-    font-size: 0.4rem;
-    width: 100%;
-    text-align: left;
-    position: absolute;
-    top: 30px;
-    display: block;
-    left: -6rem;
-}
-
-.cube{
-    width: 311px;
-    height: 184px;
-    top: 50%;
-    left: 37%;
-    position: absolute;
-    box-shadow: 10px 10px 51px 7px rgba(0,0,0,0.75);
-    border-radius: 30px;
-    background-image: url(https://www.klika.mx/wp-content/uploads/2017/08/devf.png)
-}
