@@ -4,6 +4,11 @@ html, body{
     background:#131313;
 }
 
+.logoNavbar {
+    height: 5rem;
+    width: 24rem;
+}
+
 .principalFeatures:hover{
     color: white;
 }

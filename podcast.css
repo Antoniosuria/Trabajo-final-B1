@@ -1,28 +1,27 @@
-html, body {
-    width: 100%;
-    height: 100%;
-    background: #131313;
+html, body{
+  height: 100%;
+  width: 100%;
+  background: #131313;
+}
+
+.logoNavbar {
+  height: 5rem;
+  width: 24rem;
 }
 
 .principalFeatures:hover{
   color: white;
 }
 
-.container {
-    font-size: 2.5rem;
-    color: #F46C00;
-    font-family: 'Playfair Display', serif;
-}
 .navbar{
-    height: 5rem;
-    background: #131313;
-    font-family: 'Playfair Display', serif;
+  height: 5rem;
+  background: #131313;
 }
 
 .principalFeatures {
-    color: #F46C00;
-    font-size: 1.3rem;
-    margin-left: 2.8rem;
+  color: #F46C00;
+  font-size: 1.3rem;
+  margin-left: 2.8rem;
 }
 .logo{
     font-size: 2.5rem;
