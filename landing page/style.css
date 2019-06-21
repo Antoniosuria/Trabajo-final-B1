@@ -30,7 +30,16 @@ html, body{
     color: white;
     margin-bottom: 4rem;
     font-family: 'Anton', sans-serif;
-    text-shadow: 2px 2px #1D9AF2;
+    text-shadow: 2px 2px #F46C00;
+}
+
+.TextNovedades{
+    font-size: 1rem;
+}
+
+.imgpText{
+    margin-top: 0;
+    margin-bottom: 0rem;
 }
 
 button { 
@@ -182,5 +191,26 @@ button {
 }
 
 .footer{
-    height: 10rem;
+    height: 20rem;
+}
+
+.spanBlack{
+color: #F46C00;
+}
+
+.spanblack2{
+    color: white;
+}
+
+.footertextp{
+    color: white;
+    margin-top: 2rem;
+}
+
+.footertext{
+    color: grey;
+}
+
+.footerEmail{
+    color: grey;
 }
