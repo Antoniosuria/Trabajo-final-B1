@@ -1,10 +1,8 @@
 html, body {
     width: 100%;
-    height: 100%;  
+    height: 100%;
+    background: #131313;
 }
-
-
-
 .container {
     margin-top: 45px;
     display: grid;
@@ -15,4 +13,45 @@ html, body {
 header {
     text-align: center;
     margin-left: 20%;
+    color: #F46C00;
+    font-family: 'Playfair Display', serif;
 }
+.navbar{
+    height: 5rem;
+    background: #131313;
+}
+
+.principalFeatures {
+    color: #F46C00;
+    font-size: 1.3rem;
+    margin-left: 2.8rem;
+}
+.logo{
+    font-size: 2.5rem;
+    color: #F46C00;
+    font-family: 'Playfair Display', serif;
+}
+footer {
+    margin-top: 20px;
+    background: #131313;
+    padding: 10px 0;
+    text-align: center;
+  }
+  footer a {
+    color: #70726F;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid #70726F;
+    transition: all .5s ease;
+  }
+  footer a:first-child {
+    border-left: 1px solid #70726F;
+  }
+  footer a:hover {
+    color: #F46C00;
+  }
+
+  .form {
+    text-align: center;
+    
+  }
