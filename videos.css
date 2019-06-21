@@ -3,6 +3,11 @@ html, body {
     height: 100%;
     background: #131313;
 }
+
+.principalFeatures:hover{
+  color: white;
+}
+
 .container {
     margin-top: 45px;
     display: grid;
@@ -54,4 +59,56 @@ footer {
   .form {
     text-align: center;
     
+  }
+
+  .footer{
+    height: 20rem;
+}
+
+.spanBlack{
+color: #F46C00;
+}
+
+.spanblack2{
+    color: white;
+}
+
+.footertextp{
+    color: white;
+    margin-top: 2rem;
+}
+
+.footertext{
+    color: grey;
+}
+
+.footerEmail{
+    color: grey;
+}
+
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #E8E8E8;
+}
+
+footer {
+    margin-top: 20px;
+    background: #131313;
+    padding: 10px 0;
+    text-align: center;
+  }
+  footer a {
+    color: #70726F;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid #70726F;
+    transition: all .5s ease;
+  }
+  footer a:first-child {
+    border-left: 1px solid #70726F;
+  }
+  footer a:hover {
+    color: #F46C00;
   }
