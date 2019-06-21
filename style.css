@@ -4,8 +4,17 @@ html, body{
     background: #131313;
 }
 
-.navbar{
+.logoNavbar {
     height: 5rem;
+    width: 24rem;
+}
+
+.principalFeatures:hover{
+    color: white;
+}
+
+.navbar{
+    height: 6rem;
     background: #131313;
 }
 
@@ -61,9 +70,9 @@ button {
     }
 
 .jumbotron1{
-    height: 16rem;
+    height: 20rem;
     background: #131313;
-    margin-top: 4rem;
+    margin-top: 6rem;
 }
 
 .padre1{
@@ -214,3 +223,31 @@ color: #F46C00;
 .footerEmail{
     color: grey;
 }
+
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #E8E8E8;
+}
+
+footer {
+    margin-top: 15px;
+    background: #131313;
+    padding: 10px 0;
+    text-align: center;
+  }
+  footer a {
+    color: #70726F;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid #70726F;
+    transition: all .5s ease;
+  }
+  footer a:first-child {
+    border-left: 1px solid #70726F;
+  }
+  footer a:hover {
+    color: #F46C00;
+  }
+

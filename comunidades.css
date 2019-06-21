@@ -1,7 +1,16 @@
 html, body{
     height: 125%;
     width: 100%;
-    background:linear-gradient(to bottom right, #131313, #1D9AF2 );
+    background:#131313;
+}
+
+.logoNavbar {
+    height: 5rem;
+    width: 24rem;
+}
+
+.principalFeatures:hover{
+    color: white;
 }
 
 .navbar{
@@ -11,13 +20,13 @@ html, body{
 }
 
 .principalFeatures {
-    color: red;
+    color: #f46c00;
     font-size: 1.3rem;
     margin-left: 2.8rem;
 }
 .logo{
     font-size: 2.5rem;
-    color: white;
+    color: #f46c00;
     font-family: 'Playfair Display', serif;
 }
 
@@ -557,7 +566,7 @@ html, body{
 
 .nameClan{
     font-size: 2rem;
-    color: #1f1f1f;
+    color: #e0e0e0;
 }
 
 .contador{
@@ -577,3 +586,54 @@ html, body{
     height: 15rem;
 }
 
+.footer{
+    height: 20rem;
+}
+
+.spanBlack{
+color: #F46C00;
+}
+
+.spanblack2{
+    color: white;
+}
+
+.footertextp{
+    color: white;
+    margin-top: 2rem;
+}
+
+.footertext{
+    color: grey;
+}
+
+.footerEmail{
+    color: grey;
+}
+
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #E8E8E8;
+}
+
+footer {
+    margin-top: 20px;
+    background: #131313;
+    padding: 10px 0;
+    text-align: center;
+  }
+  footer a {
+    color: #70726F;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid #70726F;
+    transition: all .5s ease;
+  }
+  footer a:first-child {
+    border-left: 1px solid #70726F;
+  }
+  footer a:hover {
+    color: #F46C00;
+  }
