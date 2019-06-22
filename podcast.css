@@ -80,3 +80,61 @@ footer a:first-child {
 footer a:hover {
   color: #F46C00;
 }
+
+.ll{
+  color: #F46C00;
+}
+
+.linkuno:hover{
+  color: black;
+  text-decoration: none;
+}
+
+.card{
+  cursor: pointer;
+  width: 15rem;
+  height: 16rem;
+  background: none;
+}
+
+.front, .back{
+  height: 100%;
+  width: 90%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  transition: transform .6s linear;
+}
+
+.front .prueba1{
+  height: 100%;
+}
+
+.front{
+  transform: perspective(600px) rotateY(0deg);
+}
+
+.back{
+  background: #F46C00;
+  transform: perspective(600px) rotateY(180deg);
+}
+
+.back-content{
+  color: rgb(223, 223, 223);
+  text-align: center;
+  width: 100%;
+  padding: 8px;
+}
+
+
+.card:hover > .front{
+  transform: perspective(600px) rotateY(-180deg);
+}
+
+.card:hover > .back{
+  transform: perspective(600px) rotateY(0deg);
+}
+
+.name2{
+  color: rgb(41, 41, 41);
+}
